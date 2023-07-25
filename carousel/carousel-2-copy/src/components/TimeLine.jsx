@@ -23,6 +23,7 @@ export const TimeLine = () => {
        <> 
        <section>
        <div style={{"font-size" : "10px", "background-color": `${color[index]}`,"width" : `${value * 340}px`}}></div>
+       <p></p>
        <span>{key}</span>
        </section>
        </>
@@ -46,8 +47,8 @@ width: fit-content;
         height: 10px;
         background-color: black;
     }
-    p{
-        height: 160px;
+    section{
+     height: 160px;
     background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/gotocompany-web/kratos/_next/static/media/line.438b120a.svg);
     background-repeat: repeat;
     background-position: 0;

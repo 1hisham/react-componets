@@ -24,10 +24,12 @@ background-color: #1a9461;
 `
 const FullCard = styled.div`
 display: flex;
-justify-content: center;
+justify-content: end;
 align-items: center;
 flex-direction: column;
 width: 340px;
+height: 530px;
+
 /* background-color: #4ec24e; */
 
 `
